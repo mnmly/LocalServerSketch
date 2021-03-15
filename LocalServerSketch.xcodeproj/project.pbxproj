@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9954F8FB25FF66C500CA6416 /* LocalServerAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9954F8FA25FF66C500CA6416 /* LocalServerAppApp.swift */; };
+		9954F8FB25FF66C500CA6416 /* LocalServerSketch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9954F8FA25FF66C500CA6416 /* LocalServerSketch.swift */; };
 		9954F8FD25FF66C500CA6416 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9954F8FC25FF66C500CA6416 /* ContentView.swift */; };
 		9954F8FF25FF66C800CA6416 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9954F8FE25FF66C800CA6416 /* Assets.xcassets */; };
 		9954F90225FF66C800CA6416 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9954F90125FF66C800CA6416 /* Preview Assets.xcassets */; };
@@ -31,8 +31,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		9954F8F725FF66C500CA6416 /* LocalServerApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocalServerApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		9954F8FA25FF66C500CA6416 /* LocalServerAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalServerAppApp.swift; sourceTree = "<group>"; };
+		9954F8F725FF66C500CA6416 /* LocalServerSketch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocalServerSketch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9954F8FA25FF66C500CA6416 /* LocalServerSketch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalServerSketch.swift; sourceTree = "<group>"; };
 		9954F8FC25FF66C500CA6416 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9954F8FE25FF66C800CA6416 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9954F90125FF66C800CA6416 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -57,7 +57,7 @@
 		9954F8EE25FF66C500CA6416 = {
 			isa = PBXGroup;
 			children = (
-				9954F8F925FF66C500CA6416 /* LocalServerApp */,
+				9954F8F925FF66C500CA6416 /* LocalServerSketch */,
 				9954F8F825FF66C500CA6416 /* Products */,
 				9954F90B25FF681000CA6416 /* Frameworks */,
 			);
@@ -66,22 +66,22 @@
 		9954F8F825FF66C500CA6416 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9954F8F725FF66C500CA6416 /* LocalServerApp.app */,
+				9954F8F725FF66C500CA6416 /* LocalServerSketch.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9954F8F925FF66C500CA6416 /* LocalServerApp */ = {
+		9954F8F925FF66C500CA6416 /* LocalServerSketch */ = {
 			isa = PBXGroup;
 			children = (
 				9954F91625FF6DB800CA6416 /* site */,
-				9954F8FA25FF66C500CA6416 /* LocalServerAppApp.swift */,
+				9954F8FA25FF66C500CA6416 /* LocalServerSketch.swift */,
 				9954F8FC25FF66C500CA6416 /* ContentView.swift */,
 				9954F8FE25FF66C800CA6416 /* Assets.xcassets */,
 				9954F90325FF66C800CA6416 /* Info.plist */,
 				9954F90025FF66C800CA6416 /* Preview Content */,
 			);
-			path = LocalServerApp;
+			path = LocalServerSketch;
 			sourceTree = "<group>";
 		};
 		9954F90025FF66C800CA6416 /* Preview Content */ = {
@@ -104,9 +104,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9954F8F625FF66C500CA6416 /* LocalServerApp */ = {
+		9954F8F625FF66C500CA6416 /* LocalServerSketch */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9954F90625FF66C800CA6416 /* Build configuration list for PBXNativeTarget "LocalServerApp" */;
+			buildConfigurationList = 9954F90625FF66C800CA6416 /* Build configuration list for PBXNativeTarget "LocalServerSketch" */;
 			buildPhases = (
 				9954F8F325FF66C500CA6416 /* Sources */,
 				9954F8F425FF66C500CA6416 /* Frameworks */,
@@ -118,9 +118,9 @@
 			);
 			dependencies = (
 			);
-			name = LocalServerApp;
+			name = LocalServerSketch;
 			productName = LocalServerApp;
-			productReference = 9954F8F725FF66C500CA6416 /* LocalServerApp.app */;
+			productReference = 9954F8F725FF66C500CA6416 /* LocalServerSketch.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -137,7 +137,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 9954F8F225FF66C500CA6416 /* Build configuration list for PBXProject "LocalServerApp" */;
+			buildConfigurationList = 9954F8F225FF66C500CA6416 /* Build configuration list for PBXProject "LocalServerSketch" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -150,7 +150,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9954F8F625FF66C500CA6416 /* LocalServerApp */,
+				9954F8F625FF66C500CA6416 /* LocalServerSketch */,
 			);
 		};
 /* End PBXProject section */
@@ -195,7 +195,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9954F8FD25FF66C500CA6416 /* ContentView.swift in Sources */,
-				9954F8FB25FF66C500CA6416 /* LocalServerAppApp.swift in Sources */,
+				9954F8FB25FF66C500CA6416 /* LocalServerSketch.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,20 +324,20 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"LocalServerApp/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"LocalServerSketch/Preview Content\"";
 				DEVELOPMENT_TEAM = GP3ES2Y53G;
 				ENABLE_PREVIEWS = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
-				INFOPLIST_FILE = LocalServerApp/Info.plist;
+				INFOPLIST_FILE = LocalServerSketch/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.mnmly.com.LocalServerApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mnmly.com.LocalServerSketch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -350,20 +350,20 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"LocalServerApp/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"LocalServerSketch/Preview Content\"";
 				DEVELOPMENT_TEAM = GP3ES2Y53G;
 				ENABLE_PREVIEWS = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
-				INFOPLIST_FILE = LocalServerApp/Info.plist;
+				INFOPLIST_FILE = LocalServerSketch/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.mnmly.com.LocalServerApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mnmly.com.LocalServerSketch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -373,7 +373,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9954F8F225FF66C500CA6416 /* Build configuration list for PBXProject "LocalServerApp" */ = {
+		9954F8F225FF66C500CA6416 /* Build configuration list for PBXProject "LocalServerSketch" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9954F90425FF66C800CA6416 /* Debug */,
@@ -382,7 +382,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9954F90625FF66C800CA6416 /* Build configuration list for PBXNativeTarget "LocalServerApp" */ = {
+		9954F90625FF66C800CA6416 /* Build configuration list for PBXNativeTarget "LocalServerSketch" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9954F90725FF66C800CA6416 /* Debug */,
